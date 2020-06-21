@@ -306,7 +306,7 @@
     /* halaman 2 */
     /* ------ongkir------ */
     .header-ongkir {
-        background-color: #F9A11D; 
+        background-color: rgba(24, 22, 20, 0.801); 
         height: auto;
         width: 100%;
     }
@@ -320,7 +320,7 @@
     /* halaman 3 */
     /* -----yes---------- */
     .header-yes {
-        background-color: #F9A11D; 
+        background-color: rgba(24, 22, 20, 0.801); 
         height: auto;
         width: 100%;
     }
@@ -358,7 +358,7 @@
     /* halaman 4 */
     /* -----ratings------- */
     .halaman-ratings {
-        background-color: #F9A11D;
+        background-color: rgba(24, 22, 20, 0.801); 
         width: 100%;
         height: 650px;
     }
