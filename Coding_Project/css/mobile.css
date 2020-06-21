@@ -1,0 +1,425 @@
+/* Mobile Version */
+@media (max-width: 992px) { 
+
+
+     /* body {
+        scroll-behavior: smooth;
+    } */
+
+    .header {
+        background-color: rgb(49, 45, 45); 
+        height: auto;
+        width: 100%;
+        z-index: 2;
+        position: relative;
+    }
+
+
+    .landing-page {
+        margin-top: -80px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        color: white;
+    }
+
+    .landing-page video {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .landing-page::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.596)) ; 
+        position: absolute;
+        bottom: 0;
+    }
+
+   .landing-page .row {
+       padding-top: 280px;
+       position: relative;
+       z-index: 1;
+   }
+
+    .landing-page h1 {
+        font-weight: bold;
+       
+    }
+
+    .landing-page  h6 {
+        padding: 10px;
+        line-height: 25px;
+    }
+
+    .carousel {
+        margin-bottom: 295px;
+        
+    }
+
+    .visual-1 {
+        z-index: 1;
+        width: 100%;
+        position: relative;
+    }
+
+    /* ongkir */
+    .ongkir-lacak {
+        margin-top: -250px;
+        z-index: 1;
+        position: relative;
+    }
+   
+    .ongkir {
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0px 4px 20px rgba(39, 30, 30, 0.596);
+    }
+
+    .ongkir .btn {
+        width: 200px;
+        height: auto;
+        margin: 5px;
+    }
+
+    .ongkir h4, .lacak h4 {
+        font-weight: bold;
+    }
+
+    .ongkir h6, .lacak h6 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #8A7C7C;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .ongkir .form-control {
+        background-color: #FFC773;
+    }
+
+    .ongkir .form-control::placeholder {
+        color: white;
+    }
+
+    /* lacak */
+    .lacak {
+        background-color: white;
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 4px 20px rgba(155, 146, 146, 0.596);
+    }
+
+    .lacak .form-control {
+        background-color: #A1C0FF;
+    }
+
+    .lacak .form-control::placeholder {
+        color: white;
+    }
+
+    /* our service */
+    .our-service {
+        margin-top: 100px;
+    }
+
+    .our-service h4, .our-partners h4{
+        font-size: 30px;
+       
+    }
+    
+    .our-service h6 {
+        font-size: 18px;
+    }
+
+    /* yes-reg */
+    .yes-reg {
+        padding: 50px;
+        background-color: rgb(255, 246, 246);
+        height: auto;
+        width: 100%;
+    }
+
+    .yes-reg .yes {
+        width: 407px;
+        height: auto;
+        background-color: #184EBC;
+        color: white;
+        padding: 50px;
+        border-radius: 50px 0 0 50px;
+    }
+
+    .yes-reg .yes:hover{
+        scroll-margin-right: 100px;
+        transition: .6s; 
+        transform: scale(1.02); 
+        box-shadow: 0px 4px 20px rgba(155, 146, 146, 0.596);
+    }
+
+    .yes-reg .yes .btn {
+        background-color: #F9A11D;
+        color: white;
+        width: 150px;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        
+    }
+
+    /* service reg */
+    .yes-reg .reg {
+        margin-top: 10px;
+        margin-left: -70px;
+        width: 407px;
+        height: auto;
+        background-color: #F9A11D;
+        color: white;
+        padding: 50px;
+        border-radius: 0 50px 50px 0  ;
+    }
+    
+    .yes-reg .reg:hover{
+        scroll-margin-right: 100px;
+        transition: .6s; 
+        transform: scale(1.02); 
+        box-shadow: 0px 4px 20px rgba(155, 146, 146, 0.596);
+       
+    }
+
+    .yes-reg .reg .btn {
+        background-color: #184EBC;
+        color: white;
+        width: 150px;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+
+    /* berita */
+    
+
+   .kurir-sepeda {
+       width: 100%;
+   }
+
+    .berita hr {
+        border-color: white;
+        border-width: 3px;
+    }
+
+    .berita .tab-content {
+        width: 100%;
+        height: 540px;
+        overflow: scroll;
+        background-color: #FAF8F7;
+    }
+
+    .berita .tab-content h6 {
+        padding: 2px;
+        font-size: 12px;
+
+    }
+
+    /* our patrners */
+    .our-partners {
+        margin-top: 100px;
+    }
+    
+    .partners img {
+        padding: 40px;
+    }
+
+    /* ulasan-rating */
+    .ulasan-ratings {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76),
+         rgba(0, 0, 0, 0.596)), 
+         url("../Assets/img/kota.jpg") ; 
+        color: white;
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;
+        width: 100%;
+    }
+    .ulasan-ratings .ulasan {
+    margin-top: 60px;
+    text-align: center;
+    }
+
+    .ulasan-ratings .ulasan h6 {
+        line-height: 30px;
+    }
+
+    .ulasan-ratings .ulasan .btn {
+        color: white;
+        width: 212px;
+        height: auto;
+    }
+
+    .ulasan-ratings .ratings {
+        height: 251px;
+        width: 206px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        padding: 25px;
+        margin-top: 65px;
+        margin-left: 120px;
+
+    }
+    
+    .ulasan-ratings .ratings h1 {
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    .ulasan-ratings .ratings h5 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* footer */
+    .footer {
+        height: auto;
+        width: 100%;
+        background-color: #000000a1;
+        color: white;
+        margin-top: 150px;
+        padding-top: 50px;
+    }
+    
+    .footer h5 {
+        font-weight: bold;
+    }
+
+    /* halaman 2 */
+    /* ------ongkir------ */
+    .header-ongkir {
+        background-color: #F9A11D; 
+        height: auto;
+        width: 100%;
+    }
+
+    .harga-biaya-ongkir {
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 250px;
+    }
+
+    /* halaman 3 */
+    /* -----yes---------- */
+    .header-yes {
+        background-color: #F9A11D; 
+        height: auto;
+        width: 100%;
+    }
+
+    .layanan-yes .cek-biaya-yes {
+        width: 100%;
+        height: auto;
+        border-radius: 20px ;
+        box-shadow: 0px 4px 10px rgba(155, 146, 146, 0.596);
+    }
+
+    .layanan-yes .cek-biaya-yes 
+    .form-ongkir-yes {
+        padding: 50px;
+    }
+
+    .layanan-yes .cek-biaya-yes 
+    .form-ongkir-yes .btn-light {
+        width: 263px;
+        height: auto;
+        box-shadow: 0px 4px 10px rgba(155, 146, 146, 0.596);
+        color: #9C9292;
+        margin-right: 20px;
+    }
+
+    .layanan-yes .cek-biaya-yes 
+    .form-ongkir-yes .btn-success {
+        width: 263px;
+        height: auto;
+        box-shadow: 0px 4px 10px rgba(155, 146, 146, 0.596);
+        color: rgb(255, 255, 255);
+    }
+
+
+    /* halaman 4 */
+    /* -----ratings------- */
+    .halaman-ratings {
+        background-color: #F9A11D;
+        width: 100%;
+        height: 650px;
+    }
+
+    .form-ratings {
+        padding: 30px;
+        width: 100%;
+        height: auto;
+        border-radius: 20px ;
+        background-color: white;
+        box-shadow: 0px 4px 30px rgba(68, 65, 65, 0.596);
+    }
+
+    .form-ratings .btn {
+        width: 100%;
+    }
+
+    /* *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    } */
+
+    /* z 1 */
+    /* .header .navbar {
+        background-color: rgba(10, 10, 124, 0.26);
+        z-index: 1; */
+        
+    /* }
+    .banner {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin-top: -80px;
+        
+    }
+
+    .banner::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.911);
+        position: absolute;
+    }
+
+    .banner video {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+       
+
+    }
+
+    /* z 2 */
+    /* .banner h1 {
+        padding-top: 150px;
+        font-size: 60px;
+        position: absolute;
+        color: white;
+        z-index: 2;
+    } */ */
+    
+
+ }
+    
