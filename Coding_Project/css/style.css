@@ -103,7 +103,7 @@
     }
 
     .ongkir .form-control {
-        background-color: #FFC773;
+        background-color:rgba(0, 0, 0, 0.200);
     }
 
     .ongkir .form-control::placeholder {
@@ -121,7 +121,7 @@
     }
 
     .lacak .form-control {
-        background-color: #A1C0FF;
+        background-color:rgba(0, 0, 0, 0.200);
     }
 
     .lacak .form-control::placeholder {
